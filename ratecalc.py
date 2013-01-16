@@ -1,3 +1,10 @@
+from datetime import datetime
+
+today = datetime.now().strftime("%Y%m%d")
+now = datetime.now()
+
+print "Hi, today is %s, and it is now %s" % (today, str(now))
+
 
 gigs_done = float(raw_input("how many gigs have been copied? \n> "))
 hrs_so_far = float(raw_input("how many hours have passed since it started? \n> "))
